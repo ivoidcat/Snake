@@ -17,6 +17,16 @@
 		69CFFA0C1D66BE6D00BE3598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CFFA0B1D66BE6D00BE3598 /* Main.storyboard */; };
 		69CFFA0E1D66D34E00BE3598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CFFA0D1D66D34E00BE3598 /* ViewController.swift */; };
 		ACEC5E42E078CA7E625E6A16 /* Pods_Snakee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFED361E7B4E9855CE96387 /* Pods_Snakee.framework */; };
+		DC71230722953AE6009489E6 /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7122FA22953AE6009489E6 /* AppDelegate+Extension.swift */; };
+		DC71230822953AE6009489E6 /* Body+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7122FB22953AE6009489E6 /* Body+Extension.swift */; };
+		DC71230922953AE6009489E6 /* CalendarViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7122FC22953AE6009489E6 /* CalendarViewController+Extension.swift */; };
+		DC71230A22953AE6009489E6 /* GameScene+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7122FD22953AE6009489E6 /* GameScene+Extension.swift */; };
+		DC71230B22953AE6009489E6 /* GameViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7122FE22953AE6009489E6 /* GameViewController+Extension.swift */; };
+		DC71230C22953AE6009489E6 /* is+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7122FF22953AE6009489E6 /* is+Extension.swift */; };
+		DC71230D22953AE6009489E6 /* SnakeCalendarCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71230322953AE6009489E6 /* SnakeCalendarCell+Extension.swift */; };
+		DC71230E22953AE6009489E6 /* SnakeCalendarHeaderView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71230422953AE6009489E6 /* SnakeCalendarHeaderView+Extension.swift */; };
+		DC71230F22953AE6009489E6 /* SnakeCalendarView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71230522953AE6009489E6 /* SnakeCalendarView+Extension.swift */; };
+		DC71231022953AE6009489E6 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC71230622953AE6009489E6 /* ViewController+Extension.swift */; };
 		DC9E9150228D4F4600257117 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E914F228D4F4600257117 /* CalendarViewController.swift */; };
 		DC9E9154228D5A6200257117 /* SnakeCalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E9151228D5A6200257117 /* SnakeCalendarCell.swift */; };
 		DC9E9155228D5A6200257117 /* SnakeCalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9E9152228D5A6200257117 /* SnakeCalendarHeaderView.swift */; };
@@ -37,6 +47,18 @@
 		69CFFA0D1D66D34E00BE3598 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		733803E00ADD25AD416C0472 /* Pods-Snakee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snakee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snakee/Pods-Snakee.release.xcconfig"; sourceTree = "<group>"; };
 		BCFED361E7B4E9855CE96387 /* Pods_Snakee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snakee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7122FA22953AE6009489E6 /* AppDelegate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extension.swift"; sourceTree = "<group>"; };
+		DC7122FB22953AE6009489E6 /* Body+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Body+Extension.swift"; sourceTree = "<group>"; };
+		DC7122FC22953AE6009489E6 /* CalendarViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalendarViewController+Extension.swift"; sourceTree = "<group>"; };
+		DC7122FD22953AE6009489E6 /* GameScene+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GameScene+Extension.swift"; sourceTree = "<group>"; };
+		DC7122FE22953AE6009489E6 /* GameViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GameViewController+Extension.swift"; sourceTree = "<group>"; };
+		DC7122FF22953AE6009489E6 /* is+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "is+Extension.swift"; sourceTree = "<group>"; };
+		DC71230122953AE6009489E6 /* NewClassCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClassCallHeader.h; sourceTree = "<group>"; };
+		DC71230222953AE6009489E6 /* PatternCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternCallHeader.h; sourceTree = "<group>"; };
+		DC71230322953AE6009489E6 /* SnakeCalendarCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SnakeCalendarCell+Extension.swift"; sourceTree = "<group>"; };
+		DC71230422953AE6009489E6 /* SnakeCalendarHeaderView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SnakeCalendarHeaderView+Extension.swift"; sourceTree = "<group>"; };
+		DC71230522953AE6009489E6 /* SnakeCalendarView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SnakeCalendarView+Extension.swift"; sourceTree = "<group>"; };
+		DC71230622953AE6009489E6 /* ViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		DC9E914F228D4F4600257117 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		DC9E9151228D5A6200257117 /* SnakeCalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeCalendarCell.swift; sourceTree = "<group>"; };
 		DC9E9152228D5A6200257117 /* SnakeCalendarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeCalendarHeaderView.swift; sourceTree = "<group>"; };
@@ -85,6 +107,7 @@
 		15F135D81D49A5AE0055FE77 /* Snakee */ = {
 			isa = PBXGroup;
 			children = (
+				DC7122F922953AE6009489E6 /* DragMeToTheProject */,
 				DC4804B6228D194E0091AD46 /* Calendar */,
 				15F135E61D49A5AF0055FE77 /* LaunchScreen.storyboard */,
 				69CFFA0B1D66BE6D00BE3598 /* Main.storyboard */,
@@ -118,6 +141,33 @@
 			children = (
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		DC7122F922953AE6009489E6 /* DragMeToTheProject */ = {
+			isa = PBXGroup;
+			children = (
+				DC7122FA22953AE6009489E6 /* AppDelegate+Extension.swift */,
+				DC7122FB22953AE6009489E6 /* Body+Extension.swift */,
+				DC7122FC22953AE6009489E6 /* CalendarViewController+Extension.swift */,
+				DC7122FD22953AE6009489E6 /* GameScene+Extension.swift */,
+				DC7122FE22953AE6009489E6 /* GameViewController+Extension.swift */,
+				DC7122FF22953AE6009489E6 /* is+Extension.swift */,
+				DC71230022953AE6009489E6 /* NewClass */,
+				DC71230222953AE6009489E6 /* PatternCallHeader.h */,
+				DC71230322953AE6009489E6 /* SnakeCalendarCell+Extension.swift */,
+				DC71230422953AE6009489E6 /* SnakeCalendarHeaderView+Extension.swift */,
+				DC71230522953AE6009489E6 /* SnakeCalendarView+Extension.swift */,
+				DC71230622953AE6009489E6 /* ViewController+Extension.swift */,
+			);
+			path = DragMeToTheProject;
+			sourceTree = "<group>";
+		};
+		DC71230022953AE6009489E6 /* NewClass */ = {
+			isa = PBXGroup;
+			children = (
+				DC71230122953AE6009489E6 /* NewClassCallHeader.h */,
+			);
+			path = NewClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +204,9 @@
 				TargetAttributes = {
 					15F135D51D49A5AE0055FE77 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = NLHXHRPT3H;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = BCU2BHB98M;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -237,11 +288,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC71230D22953AE6009489E6 /* SnakeCalendarCell+Extension.swift in Sources */,
+				DC71230722953AE6009489E6 /* AppDelegate+Extension.swift in Sources */,
 				DC9E9155228D5A6200257117 /* SnakeCalendarHeaderView.swift in Sources */,
+				DC71230B22953AE6009489E6 /* GameViewController+Extension.swift in Sources */,
 				DC9E9154228D5A6200257117 /* SnakeCalendarCell.swift in Sources */,
 				DC9E9150228D4F4600257117 /* CalendarViewController.swift in Sources */,
 				15F135DE1D49A5AE0055FE77 /* GameScene.swift in Sources */,
+				DC71230C22953AE6009489E6 /* is+Extension.swift in Sources */,
 				15F135E01D49A5AE0055FE77 /* GameViewController.swift in Sources */,
+				DC71230922953AE6009489E6 /* CalendarViewController+Extension.swift in Sources */,
+				DC71230E22953AE6009489E6 /* SnakeCalendarHeaderView+Extension.swift in Sources */,
+				DC71231022953AE6009489E6 /* ViewController+Extension.swift in Sources */,
+				DC71230F22953AE6009489E6 /* SnakeCalendarView+Extension.swift in Sources */,
+				DC71230A22953AE6009489E6 /* GameScene+Extension.swift in Sources */,
+				DC71230822953AE6009489E6 /* Body+Extension.swift in Sources */,
 				15F135F21D49A6BF0055FE77 /* Grid.swift in Sources */,
 				DC9E9156228D5A6200257117 /* SnakeCalendarView.swift in Sources */,
 				15F135DA1D49A5AE0055FE77 /* AppDelegate.swift in Sources */,
@@ -375,14 +436,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NLHXHRPT3H;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BCU2BHB98M;
 				INFOPLIST_FILE = Snakee/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stephen.Snakee1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.snake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev - Wildcard";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -393,15 +454,15 @@
 			baseConfigurationReference = 733803E00ADD25AD416C0472 /* Pods-Snakee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NLHXHRPT3H;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = SZF7K8RQKN;
 				INFOPLIST_FILE = Snakee/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stephen.Snakee1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xin.snake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Distribution - com.xin.snake";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
